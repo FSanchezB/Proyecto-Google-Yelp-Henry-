@@ -26,7 +26,13 @@ Este repositorio contiene las siguientes carpetas:
 
 ## Objetivo
 
-Ya vista la propuesta de trabajo nuestro objetivo se inclinó hacía las reseñas de Yelp, de las cuales se hizo su análisis de sentimiento y sistema de recomendación para mejorar el sector de servicios en Estados Unidos, además de que se hizo un exhaustivo análisis y tratamiento a los datos para tener insights sobre como mejorar el sector de servicios fuera del sistema de recomendación y el análisis de sentimiento.
+Ya vista la propuesta de trabajo nuestro objetivo se inclinó hacía las reseñas de Yelp, ayudandonos de la información sobre los establecimientos que tenemos tanto en Google Maps como en Yelp. Los objetivos se centrarán principalemente en las categorias de "Food/Restaurants", "Health", "Car Services", "Shopping" y "Hotel". 
+A continuación se listaran los principales objetivos y entregables que definimos para este proyecto, seguido de ello en la sección de "Metodología" se explicara en detalle el proceso de trabajo para llegar a estos objetivos:
+
+- Crear un sistema recomendación utilizando el análisis de sentimiento para que el usuario introduzca datos como su ciudad y la categoría para que le arroje un resultado de recomendación basado en las reseñas.
+- Crear un sistema predictivo basado en los distintos sistemas de calificaciones que se encuentran en los datos para predecir la mejora de los establecimientos en esta área de los datos.
+- Definir un total de 4 KPI's (Indicadores Clave de Rendimiento) para establecer unas metricas meta en un periodo definido.
+- Otorgar un dashboard que pueda dar a entender de una manera visual las conclusiones con respecto al análisis y los KPI's trabajados durante el proyecto.
 
 ## Metodología
 
@@ -63,9 +69,17 @@ Otorga la lista de reseñas que les dio a los establecimientos a completo detall
 
 ### KPI's
 Se definieron los siguientes KPI's (Indicadores clave de rendimiento):
-- KPI 1:
-- KPI 2:
-- KPI 3 
+- KPI 1: Promedio de calificación por comercio
+KPI: medir satisfacción general de los clientes
+Objetivo: Aumentar 2% la satisfacción general de los clientes para el próximo trimestre.
+
+- KPI 2: N° de reseñas con rating <= a 2 estrellas
+KPI: Proporción de reseñas negativas y áreas de mejora.
+Objetivo: Disminuir 2% la proporción de reseñas menores a <=2 estrellas para el próximo trismetre.
+
+- KPI 3: Contar la cantidad de calificaciones "Star" dadas en Yelp
+KPI: Identificar la relevancia de las calificaciones por estrella y como afectan según que estados del país, además de ver la relación entre una reseña y la calificación.
+Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 ## Conclusiones
 
