@@ -68,14 +68,14 @@ Otorga información similar a la de “metadata-sitios” pero en este caso se o
 Otorga la lista de reseñas que les dio a los establecimientos a completo detalle
 
 ### KPI's
-Se definieron los siguientes KPI's (Indicadores clave de rendimiento):
+Se definieron los siguientes KPI's (Indicadores clave de rendimiento), todos tienen como objetivo de tiempo el próximo trimestre:
 - KPI 1: Promedio de calificación por comercio
 KPI: medir satisfacción general de los clientes
-Objetivo: Aumentar 2% la satisfacción general de los clientes para el próximo trimestre.
+Objetivo: Aumentar 2% la satisfacción general de los clientes.
 
 - KPI 2: N° de reseñas con rating <= a 2 estrellas
 KPI: Proporción de reseñas negativas y áreas de mejora.
-Objetivo: Disminuir 2% la proporción de reseñas menores a <=2 estrellas para el próximo trismetre.
+Objetivo: Disminuir 2% la proporción de reseñas menores a <=2 estrellas.
 
 - KPI 3: Contar la cantidad de calificaciones "Star" dadas en Yelp
 KPI: Identificar la relevancia de las calificaciones por estrella y como afectan según que estados del país, además de ver la relación entre una reseña y la calificación.
