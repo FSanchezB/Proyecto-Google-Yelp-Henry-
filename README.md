@@ -30,7 +30,7 @@ Ya vista la propuesta de trabajo nuestro objetivo se inclinó hacía las reseña
 A continuación se listaran los principales objetivos y entregables que definimos para este proyecto, seguido de ello en la sección de "Metodología" se explicara en detalle el proceso de trabajo para llegar a estos objetivos:
 
 - Crear un sistema recomendación utilizando el análisis de sentimiento para que el usuario introduzca datos como su ciudad y la categoría para que le arroje un resultado de recomendación basado en las reseñas.
-- Crear un sistema predictivo basado en los distintos sistemas de calificaciones que se encuentran en los datos para predecir la mejora de los establecimientos en esta área de los datos.
+- Crear un modelo predictivo basado en la cantidad  y promedio de calificaciones generadas por los usuarios de los negocios, encontrando las tendencias de aumento o disminución en sus calificaciones, el cual podrá ser consultado según categorias o por nombre de negocio especifico.
 - Definir un total de 4 KPI's (Indicadores Clave de Rendimiento) para establecer unas metricas meta en un periodo definido.
 - Otorgar un dashboard que pueda dar a entender de una manera visual las conclusiones con respecto al análisis y los KPI's trabajados durante el proyecto.
 
