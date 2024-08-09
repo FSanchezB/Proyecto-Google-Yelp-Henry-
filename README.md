@@ -21,13 +21,15 @@ Los datos utilizados en este proyecto nos fueron proporcionados por Henry:
 Este repositorio contiene las siguientes carpetas:
 
 - [`Notebooks`](./Notebooks/): Carpeta con los Jupiter Notebooks empleados para hacer los distintos EDA's y limpiezas de datos.
+- [`Scripts de SQL`](./SQL/): Carpeta con los scripts de MySQL, empleados para algunas transformaciones de datos y la arquitectura local de la base de datos.
 - [`assets`](./assets/): Carpeta con imágenes empleadas en este repositorio.
 - [`README.md`](./README.md): Este archivo, que proporciona una descripción general del proyecto y sus resultados.
 
 ## Objetivo
 
-Ya vista la propuesta de trabajo nuestro objetivo se inclinó hacía las reseñas de Yelp, ayudandonos de la información sobre los establecimientos que tenemos tanto en Google Maps como en Yelp. Los objetivos se centrarán principalemente en las categorias de "Food/Restaurants", "Health", "Car Services", "Shopping" y "Hotel". 
-A continuación se listaran los principales objetivos y entregables que definimos para este proyecto, seguido de ello en la sección de "Metodología" se explicara en detalle el proceso de trabajo para llegar a estos objetivos:
+La opinión de los usuarios es un dato muy valioso, que crece día a día gracias a plataformas de reseñas. Su análisis puede ser determinante para la planificación de estrategias. Yelp es una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios entre otros. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia que han recibido. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo útil para medir el desempeño, utilidad del local, además de saber en qué aspectos hay que mejorar el servicio.
+Basado en esta información nos propusimos como objetivo entender porque las reseñas y calificaciones de un usuario puede resultar tan útil a la hora de tomar una desición de negocios, dado este predicamento nos pospusimos hacer un análisis y tratamiento exaustivo de los datos que Google Maps y Yelp pusieron a disposición publica, utilizando todo tipo de herramientas para llegar a no solo un entendimiento de estos datos sino a una serie de productos basados en estos datos. Para resumir, nuestra meta se centra principalmente en las reseñas y calificaciones de los usuarios para no solo reconocer la importancia de estos datos sino darles importancia por nuestra cuenta propia.
+A continuación se listaran los principales entregables que definimos para este proyecto basados en nuestro objetivo, seguido de ello en la sección de "Metodología" se explicara en detalle el proceso de trabajo para llegar a estos objetivos:
 
 - Crear un sistema recomendación utilizando el análisis de sentimiento para que el usuario introduzca datos como su ciudad y la categoría para que le arroje un resultado de recomendación basado en las reseñas.
 - Crear un modelo predictivo basado en la cantidad  y promedio de calificaciones generadas por los usuarios de los negocios, encontrando las tendencias de aumento o disminución en sus calificaciones, el cual podrá ser consultado según categorias o por nombre de negocio especifico.
@@ -56,7 +58,7 @@ El análisis exploratorio de datos se encuentra en la carpeta de Notebooks. [`No
 
 ### Alcance
 
-Con el fin de aprovechar el tiempo propuesto para este proyecto se ha decidido centrarse en analizar las reseñas de Yelp poder proponer mejoras mas generales al mercado mas no a una cadena y/o servicio especifico. 
+Con el fin de aprovechar el tiempo propuesto para este proyecto se ha decidido centrarse en analizar las reseñas de Yelp poder proponer mejoras mas generales al mercado mas no a una cadena y/o servicio especifico. Los objetivos se centrarán principalemente en las categorias de "Food/Restaurants", "Health", "Car Services", "Shopping" y "Hotel". 
 Para esto se ha decidido disponer de los siguientes datasets: 
 - Google Maps:
 1. “metadata-sitios”
@@ -81,6 +83,39 @@ Objetivo: Disminuir 2% la proporción de reseñas menores a <=2 estrellas.
 KPI: Identificar la relevancia de las calificaciones por estrella y como afectan según que estados del país, además de ver la relación entre una reseña y la calificación.
 Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
+### ETL Completo y creación de base de datos
+
+- Se hizo un ETL completo de los datasets para luego pasarlos a una base de datos local de MySQL. Contando con el hecho de que ya se había hecho una limpieza anterior de los datos no se tardó tanto en este punto. Para más documentación con respecto a este proceso mirar [`Notebooks`](./Notebooks/).
+
+### Estructura de Datos
+
+- Se decidió por usar un DataWarehouse debido a la naturaleza estructurada de los datos.
+
+### Subida de los datos a la nube
+
+- Nos decidimos por utilizar la herramienta de Google Cloud Storage para almacenar nuestra data. Esta desición fue tomada debido a la versatilidad de la herramienta y la cantidad de creditos gratis que otorgaba, pero más importante remarcar la cantidad de API's y herramientas de Google que son facilitadas debido a tener nuestra data almacenada en Cloud Storage como lo es el caso de BigQuery.
+
+### Conexión de Datos a BigQuery
+
+- Se utilizó BigQuery para el análisis de la gran cantidad de datos. Debido a la estructura de nuestra base de datos local nos decidimos por esta herramienta, la cual permitió la implementación mas sencilla de nuestros datos para hacer consultas en la nube.
+
+### Análisis Muestral de Datos y Validación de Datos
+
+- Se hizo un análisis del 10% de los datos más representativos de la base de datos para posteriormente validar la calidad de los datos.
+
+### Automatización y carga incremental
+
+- Se hizo un ETL automatizado para hacer una carga incremental de datos y así enriquecer nuestros datos y los posteriores modelos de machine learning y dashboard.
+
+### Boceto de Dashboard
+
+- Para definir como resultaría la presentación final se requirió hacer un boceto del dashboard final para poder visualizar con anterioridad la información mostrada y los gráficos mostrados.}
+
+### MVP del Modelo de Recomendación
+
+- Se hizo un modelo de recomendación preliminar basado en el análisis de sentimiento de las reseñas de Yelp, esto en pos de fundamentar los datos utilizados para este sistema y poder expandir más en un futuro para el producto final. Para ver la demostración de este modelo preliminar dirigirse al siguiente video en la plataforma de Youtube:
+[link](https://youtu.be/LlWs4rdgUvs?si=0bMhWxRLQTeBoWXN)
+
 ## Conclusiones
 
 A continuación se detallan las conclusiones del proyecto:
@@ -91,8 +126,9 @@ A continuación se detallan las conclusiones del proyecto:
 
 ## Stack de Tecnologias
 - Visual Studio Code
-- Python (Incluye las librerias: Numpy, Pandas, Matplotlib, Seaborn y SK Learn)
+- Python (Incluye las librerias: Numpy, Pandas, Matplotlib, Seaborn, SK Learn, TextBlob entre otros)
 - ClickUp
+- Google Cloud Storage & Google BigQuery
 - Git y GitHub
 - Canva
 - PowerBI
