@@ -125,6 +125,8 @@ A continuación se detallan las conclusiones del proyecto:
 - Punto 2
 
 ## Stack de Tecnologias
+![Workflow Tecnologias](./assets/workflow_tech.png)
+
 - Visual Studio Code
 - Python (Incluye las librerias: Numpy, Pandas, Matplotlib, Seaborn, SK Learn, TextBlob entre otros)
 - ClickUp
