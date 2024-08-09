@@ -139,10 +139,6 @@ A continuación se detallan las conclusiones del proyecto:
 
 Este proyecto fue desarrollado por las siguientes personas:
 
-Sebastian Quintero
-- GitHub: [https://github.com/SebastianQuintero04](https://github.com/SebastianQuintero04)
-- Correo electrónico: [quinterosebastian820@gmail.com](mailto:quinterosebastian820@gmail.com)
-
 Fernando Sanchez Barrera
 - GitHub: [https://github.com/FSanchezB](https://github.com/FSanchezB)
 - Correo electrónico: [fernandosb0320@gmail.com](mailto:fernandosb0320@gmail.com)
