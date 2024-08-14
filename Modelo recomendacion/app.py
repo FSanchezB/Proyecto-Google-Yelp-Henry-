@@ -3,8 +3,8 @@ import pandas as pd
 
 # Ejemplo de DataFrames (deberías cargar los tuyos desde archivos o bases de datos)
 reviews = pd.read_csv(r'C:\Users\Fernando\Desktop\Proyecto-Google-Yelp-Henry-\reviews_sentimiento.csv')
-negocios_yelp = pd.read_csv(r'C:\Users\Fernando\Desktop\Proyecto-Google-Yelp-Henry-\Datasets\Tablas csv\negocios_yelp.csv', encoding='utf-8')
-ciudad = pd.read_csv(r'C:\Users\Fernando\Desktop\Proyecto-Google-Yelp-Henry-\Datasets\Tablas csv\Ciudad.csv', encoding='utf-8')
+negocios_yelp = pd.read_csv(r'Datasets/Tablas csv/negocios_yelp.csv', encoding='utf-8')
+ciudad = pd.read_csv(r'Datasets/Tablas csv/Ciudad.csv', encoding='utf-8')
 categoria = pd.read_csv(r'Datasets/Tablas csv/Categoria.csv', encoding='utf-8')
 negocios_yelp.columns = negocios_yelp.columns.str.strip()
 
