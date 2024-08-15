@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-reviews = pd.read_csv(r'C:\Users\Fernando\Desktop\Proyecto-Google-Yelp-Henry-\reviews_sentimiento.csv')
+reviews = pd.read_csv(r'sentimiento/reviews_sentimiento2.csv',encoding='utf-8')
 negocios_yelp = pd.read_csv(r'Datasets/Tablas csv/negocios_yelp.csv', encoding='utf-8')
 ciudad = pd.read_csv(r'Datasets/Tablas csv/Ciudad.csv', encoding='utf-8')
 categoria = pd.read_csv(r'Datasets/Tablas csv/Categoria.csv', encoding='utf-8')
