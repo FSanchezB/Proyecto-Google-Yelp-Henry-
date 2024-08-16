@@ -89,6 +89,7 @@ Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 ### ETL Completo y creación de base de datos
 
+![Modelo ER](./SQL/Modelo%20Database.png)
 - Se hizo un ETL completo de los datasets para luego pasarlos a una base de datos local de MySQL. Contando con el hecho de que ya se había hecho una limpieza anterior de los datos no se tardó tanto en este punto. Para más documentación con respecto a este proceso mirar [`Notebooks`](./Notebooks/).
 
 ### Estructura de Datos
