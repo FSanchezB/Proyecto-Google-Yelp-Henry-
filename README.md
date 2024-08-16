@@ -94,7 +94,7 @@ Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 ### Estructura de Datos
 
-![Data Warehouse](./assets/data%20warehouse.png)
+![Data Warehouse](./assets/data_warehouse.png)
 - Se decidió por usar un DataWarehouse debido a la naturaleza estructurada de los datos.
 
 ### Subida de los datos a la nube
