@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-reviews = pd.read_csv(r'sentimiento/reviews_sentimiento2.csv',encoding='utf-8')
-negocios_yelp = pd.read_csv(r'Datasets/Tablas csv/negocios_yelp.csv', encoding='utf-8')
-ciudad = pd.read_csv(r'Datasets/Tablas csv/Ciudad.csv', encoding='utf-8')
-categoria = pd.read_csv(r'Datasets/Tablas csv/Categoria.csv', encoding='utf-8')
+reviews = pd.read_csv('sentimiento/reviews_sentimiento2.csv',encoding='utf-8')
+negocios_yelp = pd.read_csv('Datasets/Tablas csv/negocios_yelp.csv', encoding='utf-8')
+ciudad = pd.read_csv('Datasets/Tablas csv/Ciudad.csv', encoding='utf-8')
+categoria = pd.read_csv('Datasets/Tablas csv/Categoria.csv', encoding='utf-8')
 negocios_yelp.columns = negocios_yelp.columns.str.strip()
 
 st.title('Sistema de Recomendación de Negocios')
