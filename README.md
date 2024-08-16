@@ -38,6 +38,7 @@ Objetivos especificos:
 
 ## Metodología
 
+![Metodología](./assets/metodologia.png)
 Para llevar a cabo este proyecto se utilizó la metodología SCRUM que dicta una serie de sprints semanales en las que se establecieron objetivos (hitos) para cada una de las semanas (sprints) para ir trabajando que además serían evaluadas por un SCRUM master en reuniones diarias para asegurar que el grupo de trabajo fuera en la dirección adecuada. Al final de cada sprint se hacía una review y retrospectiva de todo el sprint.
 La siguiente gran sección de este repositorio mostrará los hitos más importantes en los que se trabajó durante todos los sprints de manera crónologica:
 
@@ -49,6 +50,8 @@ Para este fin utilizamos la herramienta ClickUp para asignar tareas a los días 
 Se realizó un proceso de limpieza de datos para preparar los datos antes del análisis. Esto incluyó la extracción de los datos desde las fuentes originales, la limpieza y transformación (ETL) de los mismos para garantizar su calidad y consistencia. El proceso de ETL se encuentra detallado en los archivos de la carpeta Notebook (Para mas información ver el archivo "AboutNotebooks" para aprender más sobre ellos) [`Notebooks`](./Notebooks/).
 
 ### Análisis Exploratorio de Datos (EDA)
+
+![EDA](./assets/Grafica.png)
 Se realizó un análisis exhaustivo de los datos utilizando Python y las librerías pandas, numpy, seaborn y matplotlib en varios notebook de Jupyter. Durante este proceso, se llevaron a cabo las siguientes tareas:
 - Búsqueda y tratamiento de valores faltantes, atípicos y duplicados.
 - Análisis de la distribución de las variables y su relación con los siniestros viales.
@@ -90,6 +93,7 @@ Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 ### Estructura de Datos
 
+![Data Warehouse](./assets/data%20warehouse.png)
 - Se decidió por usar un DataWarehouse debido a la naturaleza estructurada de los datos.
 
 ### Subida de los datos a la nube
@@ -110,7 +114,8 @@ Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 ### Boceto de Dashboard
 
-- Para definir como resultaría la presentación final se requirió hacer un boceto del dashboard final para poder visualizar con anterioridad la información mostrada y los gráficos mostrados.}
+![Boceto Dashboard](./assets/Boceto%20Dashboard.png)
+- Para definir como resultaría la presentación final se requirió hacer un boceto del dashboard final para poder visualizar con anterioridad la información mostrada y los gráficos mostrados.
 
 ### MVP del Modelo de Recomendación
 
