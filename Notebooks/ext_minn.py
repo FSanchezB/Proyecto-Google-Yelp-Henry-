@@ -1,13 +1,58 @@
-import streamlit as st
+from google.cloud import bigquery
+import os
 import pandas as pd
+import streamlit as st
 
-reviews = pd.read_csv('sentimiento/reviews_sentimiento2.csv',encoding='utf-8')
-negocios_yelp = pd.read_csv('Datasets/Tablas csv/negocios_yelp.csv', encoding='utf-8')
-ciudad = pd.read_csv('Datasets/Tablas csv/Ciudad.csv', encoding='utf-8')
-categoria = pd.read_csv('Datasets/Tablas csv/Categoria.csv', encoding='utf-8')
-negocios_yelp.columns = negocios_yelp.columns.str.strip()
+#conectarse a bucket gcs y bigquery
+
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credencial.json'
+
+
+bq_client = bigquery.Client()
+
+# Definir la consulta SQL REVIEWS
+query_reviews = """
+    SELECT *
+    FROM `xenon-mantis-431402-j8.db.reviews_yelp`
+    LIMIT 100000
+"""
+# Ejecutar la consulta y convertir los resultados en un DataFrame de Pandas
+reviews = bq_client.query(query_reviews).to_dataframe()
+
+# Definir la consulta SQL NEGOCIOS
+query_yelp = """
+    SELECT *
+    FROM `xenon-mantis-431402-j8.db.Negocios_Yelp`
+    LIMIT 100000
+"""
+# Ejecutar la consulta y convertir los resultados en un DataFrame de Pandas
+negocios_yelp = bq_client.query(query_yelp).to_dataframe()
+
+
+# Definir la consulta SQL CIUDAD
+query_ciudad = """
+    SELECT *
+    FROM `xenon-mantis-431402-j8.db.Ciudad`
+    LIMIT 100000
+"""
+# Ejecutar la consulta y convertir los resultados en un DataFrame de Pandas
+ciudad = bq_client.query(query_ciudad).to_dataframe()
+
+
+# Definir la consulta SQL
+query_categoria = """
+    SELECT *
+    FROM `xenon-mantis-431402-j8.db.Categoria`
+    LIMIT 100000
+"""
+# Ejecutar la consulta y convertir los resultados en un DataFrame de Pandas
+reviews = bq_client.query(query_reviews).to_dataframe()
+negocios_yelp= bq_client.query(query_yelp).to_dataframe()
+ciudad = bq_client.query(query_ciudad).to_dataframe()
+categoria = bq_client.query(query_categoria).to_dataframe()
 
 st.title('Sistema de Recomendación de Negocios')
+st.subheader('Si utiliza alguna de estas recomendaciones, recuerda dejar tu opinión, es muy importante para nuestros clientes =)')
 
 ciudad_input = st.selectbox("Seleccione la ciudad:", ciudad['Ciudad'].unique())
 
@@ -22,8 +67,7 @@ if st.button('Obtener Recomendaciones'):
         st.error("Ciudad no encontrada.")
     else:
         id_ciudad_seleccionada = ciudad_seleccionada[0]
-
-        # Filtrar la categoría seleccionada
+# Filtrar la categoría seleccionada
         categoria_seleccionada = categoria[categoria['Categoria'].str.lower() == categoria_input.lower()]['Id_Categoria'].values
 
         if len(categoria_seleccionada) == 0:
