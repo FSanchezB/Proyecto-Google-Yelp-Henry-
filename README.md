@@ -24,7 +24,6 @@ Este repositorio contiene las siguientes carpetas:
 - [`Scripts de SQL`](./SQL/): Carpeta con los scripts de MySQL, empleados para algunas transformaciones de datos y la arquitectura local de la base de datos.
 - [`assets`](./assets/): Carpeta con imágenes empleadas en este repositorio.
 - [`Datasets`](./Tablas%20csv/): Carpeta con los Datasets ya trabajados para este proyecto.
-- [`sentimiento`](./sentimiento/): Carpeta con el Dataset más grande de este proyecto, "reviews". 
 - [`Modelo ML`](./Modelo%20recomendacion/): Carpeta que contiene el script para correr el siste de recomendación además del notebook que contiene el trabajo de ML para sacar el sentimiento de las reseñas. 
 - [`README.md`](./README.md): Este archivo, que proporciona una descripción general del proyecto y sus resultados.
 
