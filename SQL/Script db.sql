@@ -143,6 +143,11 @@ IGNORE 1 LINES
 INSERT INTO estado(Estado)
 SELECT DISTINCT str FROM aux;
  
+UPDATE estado
+SET Estado = REPLACE(REPLACE(Estado, '\n', ''), '\r', '')
+WHERE Estado LIKE '%\n%' OR Estado LIKE '%\r%';
+
+ 
 -- agregamos estados 
 ALTER TABLE negocios_google
 ADD column Estado VARCHAR (50),
@@ -222,10 +227,8 @@ JOIN estado e
 USING (Estado)
 SET c.Id_Estado = e.Id_Estado;
 
-SELECT c.Id_estado, c.Estado, e.Id_estado
-FROM ciudad c
-JOIN estado e ON c.Estado = e.Estado
-WHERE c.Id_estado != e.Id_estado;
+ALTER TABLE ciudad 
+DROP Estado;
 
 -- foreign keys
 ALTER TABLE negocios_google 
@@ -249,5 +252,7 @@ ADD CONSTRAINT fk_ciudad_estado
 FOREIGN KEY (Id_Estado) REFERENCES estado(Id_Estado);
 
 ALTER TABLE reviews_yelp
-ADD CONSTRAINT fk_negocio
+ADD CONSTRAINT fk_negocio_yelp
 FOREIGN KEY (Id_Negocio) REFERENCES negocios_yelp(Id_Negocio);
+
+DROP TABLE aux;

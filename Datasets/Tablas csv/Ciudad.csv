@@ -1,0 +1,867 @@
+Id_Ciudad,Ciudad,Id_Estado
+1,Philadelphia,16
+2,Clearwater,6
+3,Largo,6
+4,Tucson,22
+5,Kenner,21
+6,Indianapolis,19
+7,Reno,5
+8,Nashville,14
+9,Exton,16
+10,Alton,26
+11,"Bala Cynwyd",16
+12,Edmonton,7
+13,Tampa,6
+14,"Kennett Square",16
+15,Harvey,21
+16,"New Orleans",21
+17,Hudson,6
+18,Fernley,5
+19,"Pinellas Park",6
+20,Burlington,16
+21,"Santa Barbara",1
+22,"Treasure Island",6
+23,"Willow Grove",16
+24,"Land O Lakes",6
+25,Carmel,19
+26,Greenwood,19
+27,Sparks,5
+28,Brookhaven,16
+29,Madison,14
+30,"Saint Louis",26
+31,Belleville,26
+32,Aston,16
+33,Riverview,6
+34,Wyncote,16
+35,"St. Louis",26
+36,Lutz,6
+37,"King of Prussia",16
+38,Langhorne,16
+39,Normandy,26
+40,Wayne,16
+41,Franklin,14
+42,Meridian,15
+43,Berwyn,16
+44,"Terra Ceia",6
+45,Doylestown,16
+46,"Saint Petersburg",6
+47,Somerdale,16
+48,Smyrna,14
+49,Chester,16
+50,Odessa,6
+51,Brownsburg,19
+52,Brandon,6
+53,Lansdale,16
+54,Glenside,16
+55,Ballwin,26
+56,Cedarbrook,16
+57,Holiday,6
+58,"Wesley Chapel",6
+59,Bristol,16
+60,Perkiomenville,16
+61,Montgomeryville,16
+62,Chesterfield,26
+63,Pennsville,36
+64,Boise,15
+65,Hazelwood,26
+66,Edwardsville,26
+67,Glenolden,16
+68,"Elkins Park",16
+69,Medford,16
+70,"St Louis",26
+71,"Kingston Springs",14
+72,Noblesville,19
+73,Metairie,21
+74,"Isla Vista",1
+75,Fishers,19
+76,Florissant,26
+77,"University City",26
+78,Conshohocken,16
+79,Woodstown,36
+80,"Spring HIll",6
+81,"West Chester",16
+82,"Cherry Hill",16
+83,Springfield,16
+84,Jennings,26
+85,Carpinteria,1
+86,Oldsmar,6
+87,Voorhees,16
+88,Southampton,16
+89,Lambertville,16
+90,"St Petersburg",6
+91,Ambler,16
+92,Camden,16
+93,"St. Charles",26
+94,"Sherwood Park",7
+95,Norristown,16
+96,Mascoutah,26
+97,Glassboro,36
+98,Sewell,16
+99,Wilmington,16
+100,Delran,16
+101,"St. Davids",16
+102,Newark,36
+103,Malvern,16
+104,Warminster,16
+105,Goleta,1
+106,"New Port Richey",6
+107,Marrero,21
+108,Haddonfield,16
+109,"Creve Coeur",26
+110,Limerick,16
+111,Lionville,16
+112,"Prospect Park",16
+113,Levittown,16
+114,Sicklerville,16
+115,Westwego,21
+116,"St. Petersburg",6
+117,Royersford,16
+118,Dunedin,6
+119,Bridgeport,16
+120,"Washington Crossing",16
+121,"Drexel Hill",16
+122,Seminole,6
+123,Media,16
+124,Goodlettsville,14
+125,"St Albert",7
+126,Arnold,26
+127,Williamstown,42
+128,Gulfport,6
+129,"Maple Shade",16
+130,Godfrey,26
+131,Zephyrhills,6
+132,Harleysville,16
+133,Bridgeton,26
+134,"Fairview Heights",26
+135,Jenkintown,16
+136,"Granite City",26
+137,Dublin,16
+138,Harahan,21
+139,"Old Hickory",14
+140,Phoenixville,16
+141,"Temple Terr",6
+142,Pitman,16
+143,Overland,26
+144,"Mullica Hill",16
+145,"Newtown Square",16
+146,Fountainville,16
+147,Moorestown,16
+148,Narberth,16
+149,"Gloucester Township",16
+150,"Port Richey",6
+151,Springfield,14
+152,"Fairless Hills",16
+153,"Clifton Heights",16
+154,"St Pete Beach",6
+155,Marlton,16
+156,"Earth City",26
+157,Lumberton,16
+158,"Mount Laurel",16
+159,"Woolwich Twp",16
+160,Trooper,16
+161,Marana,22
+162,Waterloo,26
+163,"Sun City Center",6
+164,"Belle Chasse",21
+165,Brentwood,14
+166,Newtown,16
+167,"North Wales",16
+168,Yardley,16
+169,Abington,16
+170,Bensalem,16
+171,Hendersonville,14
+172,Darby,16
+173,Morrisville,16
+174,Bellevue,14
+175,Gallatin,14
+176,Speedway,19
+177,Rosemont,16
+178,Berkeley,26
+179,Broomall,16
+180,"Bryn Mawr",16
+181,"Mount Holly",16
+182,Perkasie,16
+183,"Deptford Township",16
+184,Cahokia,26
+185,"Palm Harbor",6
+186,"Pontoon Beach",26
+187,Antioch,14
+188,Swedesboro,16
+189,Fenton,26
+190,"East Greenville",16
+191,Warrington,16
+192,"Huntingdon Valley",16
+193,"Webster Groves",26
+194,Frazer,16
+195,Eddystone,16
+196,"Land O' Lakes",6
+197,"Ewing Township",16
+198,Erdenheim,16
+199,"Clearwater Beach",6
+200,"Glen Mills",16
+201,"Audubon ",16
+202,Shrewsbury,26
+203,Oaklyn,16
+204,Chalfont,16
+205,Deptford,16
+206,"New Castle",36
+207,Whitestown,19
+208,Palmyra,16
+209,Beaumont,7
+210,Havertown,16
+211,Sauget,26
+212,Downingtown,16
+213,Trenton,16
+214,Elmer,36
+215,"Tarpon Springs",6
+216,"Blue Bell",16
+217,Seffner,6
+218,Plainfield,19
+219,Feasterville-Trevose,16
+220,Glenmoore,16
+221,"Plant City",6
+222,Oaks,16
+223,Dover,6
+224,"Plymouth Meeting",16
+225,Eagle,15
+226,"Garden City",15
+227,Brooklawn,16
+228,Wilmington,36
+229,"Mount Ephraim",16
+230,Lansdowne,16
+231,"Penns Grove",36
+232,"Hamilton Township",16
+233,"Madeira Beach",6
+234,Essington,16
+235,Arabi,21
+236,"Fort Washington",16
+237,"Maryland Heights",26
+238,Dresher,16
+239,Collinsville,26
+240,Penndel,16
+241,Claymont,16
+242,"East Norriton",16
+243,"River Ridge",21
+244,Columbia,26
+245,Hermitage,14
+246,Swansea,26
+247,Douglassville,16
+248,Paoli,16
+249,Bosie,15
+250,Westville,16
+251,Bordentown,16
+252,Colmar,16
+253,Ardmore,16
+254,Zionsville,19
+255,Terrytown,21
+256,Drexel,16
+257,Telford,16
+258,St.Ann,26
+259,Elverson,16
+260,"St Charles",26
+261,Mickleton,16
+262,Greenville,16
+263,"Safety Harbor",6
+264,"Valley Forge",16
+265,"Saint Charles",26
+266,Collingswood,16
+267,Troy,26
+268,"Des Peres",26
+269,Trinity,6
+270,Lawnside,16
+271,"East Saint Louis",26
+272,Lindenwold,16
+273,"Mt Juliet",14
+274,"Ridley Park",16
+275,Kirkwood,26
+276,Pottstown,16
+277,Avon,19
+278,"Treasure Is",6
+279,"St. Albert",7
+280,Oracle,22
+281,"Haddon Heights",16
+282,"Maryville ",26
+283,"Wood River",26
+284,Feasterville,16
+285,"St. Pete Beach",6
+286,Berlin,16
+287,"New Hope",16
+288,Paulsboro,16
+289,Clayton,26
+290,Furlong,16
+291,Millstadt,26
+292,Westmont,16
+293,Merchantville,16
+294,"Voorhees Township",16
+295,Collegeville,16
+296,"Valley Park",26
+297,Montecito,1
+298,Willingboro,16
+299,"Spring City",16
+300,Plumsteadville,16
+301,"Upper Darby",16
+302,Morton,16
+303,"Mont Clare",16
+304,Gretna,21
+305,Valrico,6
+306,"Mt. Juliet",14
+307,Verdi,5
+308,"Mount Juliet",14
+309,Richboro,16
+310,Gilbertsville,16
+311,Flanders,16
+312,"Nashville-Davidson metropolitan government (balance)",14
+313,Wynnewood,16
+314,Philadephia,16
+315,Tabernacle,16
+316,Thonotosassa,6
+317,Magnolia,16
+318,Clementon,16
+319,Mooresville,19
+320,Woodbury,16
+321,Vail,22
+322,"Hillsborough County",6
+323,"South Cinnaminson",16
+324,"Mt Laurel",16
+325,Lithia,6
+326,Lahaska,16
+327,"Maple Glen",16
+328,Ladue,26
+329,Horsham,16
+330,Manchester,26
+331,Atco,16
+332,"Tampa Bay",6
+333,Tuson,22
+334,Camby,19
+335,Brentwood,26
+336,Glendora,16
+337,"Chadds Ford",16
+338,St.Rose,21
+339,Trappe,16
+340,Pennsauken,16
+341,"Glenn Mills",16
+342,Turnersville,16
+343,"Line Lexington",16
+344,Souderton,16
+345,Newfield,42
+346,"Glen Carbon",26
+347,"Temple Terrace",6
+348,Blackwood,16
+349,"O Fallon",26
+350,Southport,19
+351,"Webster Grvs",26
+352,Devon,16
+353,Tuscon,22
+354,Evesham,16
+355,"Berlin Township",16
+356,"Redingtn Shor",6
+357,"Pleasant View",14
+358,"Monroe Township",42
+359,"Ashland City",14
+360,Hatfield,16
+361,Ferguson,26
+362,Cinnaminson,16
+363,Churchville,16
+364,"Feasterville Trevose",16
+365,O'Fallon,26
+366,"Rock Hill",26
+367,Stratford,16
+368,"High Ridge",26
+369,Maplewood,26
+370,Runnemede,16
+371,"Garnet Valley",16
+372,Quakertown,16
+373,"New Britain",16
+374,Wyndmoor,16
+375,"NW Edmonton",7
+376,"Maple Shade Township",16
+377,Villanova,16
+378,"Sun City",6
+379,Radnor,16
+380,Hatboro,16
+381,"La Vergne",14
+382,Trevose,16
+383,Croydon,16
+384,Folsom,16
+385,"Spring House",16
+386,"Redington Shores",6
+387,"Warson Woods",26
+388,Ruskin,6
+389,Mendenhall,16
+390,Swarthmore,16
+391,Thorndale,16
+392,Lavergne,14
+393,Bellmawr,16
+394,Cheltenham,16
+395,Buckingham,16
+396,"Logan Township",16
+397,"West Norriton",16
+398,Westtown,16
+399,"Oro Valley",22
+400,"West Deptford",16
+401,"St Louis Downtown",26
+402,PHILA,16
+403,"Lafayette Hill",16
+404,Lawrence,19
+405,Westampton,16
+406,Flourtown,16
+407,"Apollo Beach",6
+408,Frontenac,26
+409,"Sunset Hills",26
+410,Greenbrier,14
+411,"Breckenridge Hills",26
+412,"Holland Southampton",16
+413,"Green Valley",22
+414,Pennsburg,16
+415,Barrington,16
+416,"East Lansdowne",16
+417,Pipersville,16
+418,"Scott AFB",26
+419,"Kenneth City",6
+420,Crestwood,26
+421,Boothwyn,16
+422,"Chester Springs",16
+423,"Carneys Point",16
+424,Sahuarita,22
+425,Jefferson,21
+426,Ewing,16
+427,"Town & County",26
+428,Trainer,16
+429,Nolensville,14
+430,"Twn N Cntry",6
+431,Pennington,16
+432,Hamilton,16
+433,Kulpsville,16
+434,"Upper Southampton Township",16
+435,Newark,16
+436,Skippack,16
+437,Columbus,16
+438,Concordville,16
+439,Imperial,26
+440,"West Berlin",16
+441,Hainesport,16
+442,Primos,16
+443,"Saint Pete Beach",6
+444,"Spanish Springs",5
+445,"East Norristown",16
+446,"Sharon Hill",16
+447,Clarksboro,16
+448,"Southeast Edmonton",7
+449,Boyertown,16
+450,Hockessin,16
+451,Shiloh,26
+452,"Hernando Beach",6
+453,"Gloucester City",16
+454,"Upper Pittsgrove",36
+455,"Burlington Township",16
+456,"Mt. Laurel",16
+457,"Belleair Bluffs",6
+458,Summerland,1
+459,Chalmette,21
+460,Oreland,16
+461,"Richmond Heights",26
+462,Sicklerville,42
+463,"Harrison Township",16
+464,"Abington Township",16
+465,"Marcus Hook",16
+466,Williamstown,16
+467,Schwenksville,16
+468,"Plymouth Township",16
+469,"W Cherry Hill",16
+470,"Tierra Verde",6
+471,Franklinville,36
+472,"Laurel Springs",16
+473,Gibsonton,6
+474,Haverford,16
+475,Eagleville,16
+476,"Pennsauken Township",16
+477,"Port Hueneme",1
+478,"Mount Lemmon",22
+479,"South Pasadena",6
+480,Joelton,14
+481,Charlack,26
+482,"National Park",16
+483,"Boise City",15
+484,"Haddon Township",16
+485,Mehville,26
+486,Pittsgrove,36
+487,McCordsville,19
+488,"Saintt Petersburg",6
+489,Bellville,26
+490,"Woodbury Heights",16
+491,"Evesham Township",16
+492,Roslyn,16
+493,Marlborough,26
+494,Avondale,16
+495,"Upper Chichester",16
+496,"White House",14
+497,Sewell,42
+498,"Mullica Hill",36
+499,Bethalto,26
+500,Folcroft,16
+501,Wimauma,6
+502,"Valencia West",22
+503,Tullytown,16
+504,Holicong,16
+505,Kuna,15
+506,Holland,16
+507,"Boise (Meridian)",15
+508,Glassboro,16
+509,"Pine HIll",16
+510,"Fairview Hts.",26
+511,Meridan,15
+512,Palmetto,6
+513,"Crum Lynne",16
+514,Wallingford,16
+515,Pilesgrove,36
+516,Inglewood,14
+517,"Lawrence Township",16
+518,Malaga,36
+519,Lawrence,16
+520,Dupo,26
+521,"Saint Albert",7
+522,Sellersville,16
+523,"Mt. Ephraim",16
+524,"Sun Valley",5
+525,Hulmeville,16
+526,"Beech Grove",19
+527,"S Pasadena",6
+528,Riverside,16
+529,Lebanon,14
+530,Oaklandon,19
+531,Coatesville,16
+532,Mantua,16
+533,"Land O'Lakes",6
+534,Newfield,36
+535,"Mc Cordsville",19
+536,Caseyville,26
+537,Silverdale,16
+538,"French Quarter",21
+539,"Southampton Township",16
+540,Clayton,36
+541,"Town and Country",26
+542,Woodlyn,16
+543,"Penns Grove",16
+544,"North Redington Beach",6
+545,Collingdale,16
+546,"Edgewater Park",16
+547,"Merion Station",16
+548,"Saint Davids",16
+549,Unionville,16
+550,Stowe,16
+551,Gibbstown,16
+552,"Indian Rocks Beach",6
+553,Yeadon,16
+554,Tren,16
+555,Upland,16
+556,Jamison,16
+557,Secane,16
+558,OFallon,26
+559,"East Alton",26
+560,"Belle Chase",21
+561,Ivyland,16
+562,"Indian Shores",6
+563,"New Berlinville",16
+564,Hilltop,16
+565,"Saint Rose",21
+566,Gradyville,16
+567,Norwood,16
+568,Devon-Berwyn,16
+569,Danville,19
+570,Vincentown,16
+571,Chesterbrook,16
+572,Sappington,26
+573,Olivette,26
+574,"Eaux Claires",7
+575,Affton,26
+576,"East St. Louis",26
+577,Toughkenamon,16
+578,Zieglerville,16
+579,"Haddon Twp",16
+580,"Corona de Tucson",22
+581,Hammonton,7
+582,"Concord Township",16
+583,Blvd,26
+584,Greenfield,19
+585,"Woolwich Township",16
+586,"Had Twp",16
+587,"Saint Ann",26
+588,"Virginia City",5
+589,Lawrenceville,16
+590,"Scott Air Force Base",26
+591,Holmes,16
+592,"San Antonio",6
+593,"Cheltenham Township",16
+594,"Chestnut Hill",16
+595,"Winslow Township",42
+596,Jeffersonville,16
+597,Smithton,26
+598,"New Palestine",19
+599,Thorofare,16
+600,Wrightstown,16
+601,"Mt Holly",16
+602,"Cedar Brook",42
+603,Carversville,16
+604,Gibbsboro,16
+605,indianopolis,19
+606,"Palm Harbor, FL",6
+607,Lester,16
+608,St.Petersburg,6
+609,"Town 'n' Country",6
+610,Kalispell,6
+611,Moorestown-Lenola,16
+612,"Milmont Park",16
+613,"Bethel Township",16
+614,"Saint Bernard",21
+615,Andalusia,16
+616,"Mt Laurel Township",16
+617,"Belle Meade",14
+618,Avondale,21
+619,Elsmere,16
+620,Riveridge,21
+621,Oxnard,15
+622,"Winslow Township",16
+623,"St. Ann",26
+624,"Carneys Point",36
+625,"Lower Merion",16
+626,"Bridge City",21
+627,Chesilhurst,16
+628,Aldan,16
+629,Land-O-Lakes,6
+630,Luling,21
+631,Christiana,36
+632,Eastampton,16
+633,Wenonah,16
+634,Cerritos,1
+635,"Mount Laurel Township",16
+636,"South Tucson",22
+637,Whiteland,19
+638,"Black Jack",26
+639,"New Whiteland",19
+640,Downtown,21
+641,Boone,19
+642,"Oldmans Township",16
+643,"Greater Northdale",6
+644,Freehold,16
+645,Gentilly,21
+646,Sewell,36
+647,Lebanon,26
+648,Hamiltion,16
+649,Beverly,16
+650,"Lutz fl",6
+651,Shamong,16
+652,Kimberton,16
+653,"Mantua Township",16
+654,SPRINGHILL,6
+655,"Twin Oaks",26
+656,St.Louis,26
+657,"West Edmonton",7
+658,"King of Prussi",16
+659,Hancock,19
+660,Mansfield,16
+661,Stroudsburg,16
+662,Wayne/Radnor,16
+663,Mt.Laurel,16
+664,"Dade City",6
+665,Mt.Juliet,14
+666,Mississauga,21
+667,kop,16
+668,"Upper Merion Township",16
+669,Cumberland,19
+670,"Fairview Village",16
+671,Conshohoeken,16
+672,Manayunk,16
+673,"River View",6
+674,"Saint Petersburg Beach",6
+675,"Bradenton Beach",6
+676,Westchase,6
+677,Mercerville,16
+678,"N Redington Bch",6
+679,Erial,16
+680,"Drexel Heights",22
+681,Eddington,16
+682,"Fairmont City",26
+683,Strafford,16
+684,Richwood,16
+685,Linwood,16
+686,Rockledge,16
+687,Salem,36
+688,"Picture Rocks",22
+689,Riverton,16
+690,"Los Ranchitos",22
+691,Marshallton,16
+692,"Deptford Twp",16
+693,"Waterford Works",16
+694,"Real Goleta",1
+695,"Pennsville Township",36
+696,"Center Square",16
+697,"O' Fallon",26
+698,"Washoe Valley",5
+699,Landsdale,16
+700,"Berry Hill",14
+701,Monroeville,36
+702,Pineville,16
+703,Catalina,22
+704,Tylersport,16
+705,"Tampa - South",6
+706,"Evshm Twp",16
+707,McCarran,5
+708,"Delran Twp",16
+709,Franklin,36
+710,"West Trenton",16
+711,Pemberton,23
+712,"Willingboro Township",16
+713,Elmwood,21
+714,Sumneytown,16
+715,Carrollwood,6
+716,Pennsylvania,16
+717,"St. Peters",26
+718,Cedars,16
+719,Meadowbrook,16
+720,Oakville,26
+721,Boulevard,6
+722,Monrovia,19
+723,Cynwyd,16
+724,Castleton,19
+725,"Honey Brook",16
+726,"Citrus Park",6
+727,Edgemont,16
+728,"Town & Country",26
+729,"SAINT LOUIS AP",26
+730,Martinsville,19
+731,Gladwyne,16
+732,Linfield,16
+733,"Bristol Twp",16
+734,Hilltown,16
+735,Lima,16
+736,"Belleair Blf",6
+737,"Green Lane",16
+738,"East St Louis",26
+739,"Florence Township",16
+740,Afton,26
+741,"South Harrison Township",36
+742,Petersburg,6
+743,"Medford Lakes",16
+744,"Town N Country",6
+745,"West Bradford Township",16
+746,"SANTA BARBARA AP",1
+747,Austin,6
+748,"St.Pete Beach",6
+749,"Whites Creek",14
+750,Tampla,6
+751,"Red Hill",16
+752,Parkside,16
+753,Pedricktown,16
+754,DONELSON,14
+755,Goodletsville,14
+756,"Redingtn Shores",6
+757,"N Redngtn Bch",6
+758,Mehlville,26
+759,Nampa,15
+760,Mechanicsville,16
+761,Sherwood,7
+762,Lederach,16
+763,"Washington Park",26
+764,"Bensalem Township",16
+765,"West Point",16
+766,Philiidelphia,16
+767,"West Conshohocken",16
+768,"Lower Southampton Township",16
+769,Winslow,16
+770,Lenni,16
+771,Ridley,16
+772,"Bensalem. Pa",16
+773,"NEW ORLEANS AP",21
+774,Hammonton,42
+775,"South Burlington",16
+776,"Haverford,",16
+777,"Newtown Sqaure",16
+778,Kimmswick,26
+779,Chichester,16
+780,"Bellefontaine Neighbors",26
+781,"Upper Pottsgrove",16
+782,"Indianapolis city (balance)",19
+783,"Santa Barbra",1
+784,"Blooming Glen",16
+785,Delanco,16
+786,Violet,21
+787,Montchanin,16
+788,"Wesley Ccapel",6
+789,Worcester,16
+790,Madison,26
+791,Indiana,19
+792,"Belleair Beach",6
+793,Franklin,42
+794,Boutte,21
+795,Metarie,21
+796,"Mt  Juliet",14
+797,Sanatoga,16
+798,Plainfiled,19
+799,"Tinicum Township",16
+800,"Skippack Village",16
+801,Philly,16
+802,"Penn Valley",16
+803,"Wilmington Manor",36
+804,Stanton,36
+805,Fairview,14
+806,"Eastampton Township",16
+807,"Costa Mesa",1
+808,"St Ann",26
+809,"Santa  Barbara",1
+810,Belleair,6
+811,Talleyville,16
+812,Truckee,1
+813,"Tampa Palms",6
+814,N.Wales,16
+815,Freeburg,26
+816,Creamery,16
+817,"Bayonet Point",6
+818,Pegram,14
+819,Montgomery,16
+820,"St. Rose",21
+821,"Washington Township",16
+822,"St Louis County",26
+823,"Bel Ridge",26
+824,"West Rockhill",16
+825,Haverton,16
+826,"London Grove",16
+827,Indianpolis,19
+828,INpolis,19
+829,Clarksville,14
+830,"TUCSON AP",22
+831,Meraux,21
+832,Verdi,1
+833,"St. Leo",6
+834,Hurffville,16
+835,Kirklyn,16
+836,"Macdill Afb",6
+837,"Kng Of Prusia",16
+838,"Redington Shore",6
+839,Roebling,16
+840,Alloway,36
+841,"East Boise",15
+842,"South Cherry Hill",16
+843,Newport,36
+844,Caln,16
+845,Fallsington,16
+846,"South Tampa",6
+847,Pemberton,16
+848,"New Washoe City",5
+849,"Santa Maria",1
+850,"Shady Hills",6
+851,"Cold Springs",5
+852,Haddon,16
+853,Chattanooga,6
+854,"Green Park",26
+855,Spark,5
+856,"Saint Leo",6
+857,S.Pasadena,6
+858,"Lower Southampton",16
+859,Monchanin,16
+860,"Philadelphia PA",16
+861,Monroe,16
+862,Winchester,26
+863,"St.  Charles",26
+864,Bellefonte,16
+865,"Key Largo",6
+866,"Mount Holly,",16
