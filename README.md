@@ -122,6 +122,8 @@ Objetivo: Contar con al menos 3.8 estrellas de calificación de promedio.
 
 Se trabajo un modelo de ML para hacer un análisis de sentimiento a todas las reseñas de Yelp para posteriormente realizar el sistema de recomendación basado en el sentimiento resultante usando Streamlit como interfaz para visualizar el sistema.
 
+[link al deploy](http://34.72.77.79:8501)
+
 ### Dashboard
 
 El dashboard de este proyecto fue realizado en PowerBI y sirvió con el proposito de hacer una presentación de la parte análitica sobre la información más relevante a nuestro entender, esto incluyendo los KPI's trabajados con anterioridad.
